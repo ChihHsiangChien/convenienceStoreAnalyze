@@ -1,0 +1,14 @@
+{
+  "name": "@abebrath/scatterplot-of-text-labels",
+  "main": "e0e0a1a7497d5218@2096.js",
+  "version": "2096.0.0",
+  "homepage": "https://observablehq.com/@abebrath/scatterplot-of-text-labels",
+  "author": {
+    "name": "abebrath",
+    "url": "https://observablehq.com/@abebrath"
+  },
+  "type": "module",
+  "peerDependencies": {
+    "@observablehq/runtime": "4"
+  }
+}
