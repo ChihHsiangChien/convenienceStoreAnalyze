@@ -121,7 +121,7 @@ d3.csv('data.csv',function (data) {
     .append('circle')
       .attr('cx',function (d) { return xScale( parseFloat(d['面積'])) })
       .attr('cy',function (d) { return yScale( parseFloat(d['面積'])) })
-      .attr('r','10')
+      .attr('r','5')
       .attr('stroke','black')
       .attr('stroke-width',1)
       .attr('fill',function (d,i) { return colorScale(i) })
@@ -136,7 +136,7 @@ d3.csv('data.csv',function (data) {
         d3.select(this)
           .transition()
           .duration(200)
-          .attr('r',10)
+          .attr('r',5)
           .attr('stroke-width',1)
       })
     .append('title') // Tooltip
