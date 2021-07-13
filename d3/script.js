@@ -141,8 +141,17 @@ d3.csv('data.csv',function (data) {
       })
     .append('title') // Tooltip
       .text(function (d) { return d['縣市'] +
-                           '\n面積' + formatPercent( d['面積']) +
-                           '\n人口' + formatPercent( d['人口']) 
+                           '\n面積'      + formatPercent( d['面積']) +
+                           '\n人口'      + formatPercent( d['人口']) +
+                           '\n7-11店數'  + formatPercent( d['7-11店數']) +
+                           '\nOK店數'    + formatPercent( d['OK店數']) +
+                           '\n全家店數'   + formatPercent( d['全家店數']) +
+                           '\n萊爾富店數' + formatPercent( d['萊爾富店數']) +
+                           '\n全聯店數'   + formatPercent( d['全聯店數']) +
+                           '\n便利商店合計店數'         + formatPercent( d['便利商店合計店數']) +
+                           '\n便利商店平均服務人數'      + formatPercent( d['便利商店平均服務人數']) +
+                           '\n每平方公里有多少家便利商店' + formatPercent( d['每平方公里有多少家便利商店']) +
+                           '\n200公尺內可以遇到幾家店'   + formatPercent( d['200公尺內可以遇到幾家店']) 
                            })
   // Circles Label
   var circleLabels = svg.selectAll('circleLabel')
