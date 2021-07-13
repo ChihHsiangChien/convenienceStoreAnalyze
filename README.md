@@ -1,2 +1,3 @@
 # convenienceStoreAnalyze
-# data from  https://raw.githubusercontent.com/s3131212/Taiwan-Convenience-Store-Distribution/master/lonlat.csv
+# D3 動態圖表
+https://chihhsiangchien.github.io/convenienceStoreAnalyze/d3/
